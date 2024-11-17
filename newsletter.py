@@ -135,7 +135,7 @@ termos_policia_crime = [
 ]
 
 # URL inicial do site
-base_url = "https://www.r7.com/"
+base_url = "https://adilsonribeiro.net/"
 
 # Cabeçalhos para emular um navegador
 headers = {
@@ -149,7 +149,7 @@ visited_urls = set()
 visited_articles = set()
 
 # Limite de profundidade para o crawling
-max_depth = 4
+max_depth = 3
 
 
 def is_valid_url(url):

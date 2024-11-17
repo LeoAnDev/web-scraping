@@ -26,4 +26,4 @@ else:
     bs = BeautifulSoup(html, "html5lib")
 
     # Lê o conteúdo da resposta e imprime na tela
-    print(bs.title)
+    print(bs.title.string)
